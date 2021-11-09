@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Gwp</name>
+    </assembly>
+    <members>
+        <member name="M:Gwp.Controllers.CountryGwpController.Average(Gwp.Models.CountryGwp.AverageGwpRequestModel)">
+            <summary>
+            Returns an average gross written premium (GWP) over 2008-2015 period for the selected lines of business
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Gwp.Models.CountryGwp.AverageGwpRequestModel.Country">
+            <summary>
+            Identifier of country (try 1/2/3)
+            </summary>
+        </member>
+        <member name="P:Gwp.Models.CountryGwp.AverageGwpRequestModel.LinesOfBusiness">
+            <summary>
+            Identifiers of lines of business (try 1/2/3)
+            </summary>
+        </member>
+    </members>
+</doc>
